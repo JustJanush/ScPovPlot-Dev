@@ -1,0 +1,135 @@
+/****h* ScPovPlot3D/Types
+* PURPOSE
+*  Explains types used across this documentation. Usually types used have self-descriptive names
+*  and are the same as used in for example 'C'. However there are some which differ subtly in meaning
+*  or are specific to POVRay. Only POVRay's default types are used as POVRay doesn't have
+*  syntax for type definition, not counting for arrays of course :P         
+* VERSION
+*  3.2.0.0, tested on PovRay 3.7.
+* AUTHOR
+*  Janusz Opi³a Ph.D.
+*   jmo{at}agh.edu.pl, janusz.opila{at}gmail.com
+*   Dept. of Applied Informatics,
+*   href:https://www.facebook.com/KatedraInformatykiStosowanejWZAGH/
+*   href:http://kis.zarz.agh.edu.pl/
+*   AGH University of Science & Technology, Cracow, Poland href:http://www.zarz.agh.edu.pl/English/index.asp
+*   Maintained by Janusz Opi³a Ph.D.
+*   Homepage: href:http://scpovplot3d.sourceforge.net
+* COPYRIGHT
+*  GNU GPL v.3 License
+*  (c) 2012-now by Janusz Opi³a Ph.D.
+*  AGH University of Science and Technology
+*
+****
+  end of RoboDoc comment
+****/
+
+/****t* Types/boolean
+* INFO
+*  Logic values[yes|no] or [true|false]
+****/
+
+/****t* Types/uinteger
+* INFO
+*  uinteger - unsigned integer number
+****/
+
+/****t* Types/integer
+* INFO
+*  integer - signed integer number
+****/
+
+/****t* Types/pinteger
+* INFO
+*  pinteger - positive integer number (ie.>0: 1,2,3,4,... )
+****/
+
+/****t* Types/float
+* INFO
+*  float - float number
+****/
+
+/****t* Types/garray
+* INFO
+*  garray - general array defined elsewhere, may be multidimensional, of float, integer or structurized type (ex.: texturedef, materialdef, pfunction)
+****/
+
+/****t* Types/enum
+* INFO
+*  enum - enumerated constant
+****/
+
+/****t* Types/char
+* INFO
+*  char - Single character string. Ex. "A", ",", " ", 'c'
+****/
+
+/****t* Types/string
+* INFO
+*  string - any series of alphanumeric characters for example "This is a string", "& this is 2!". Strings in POVRay must be enclosed in pair of double "" or single quotation marks '' .
+****/
+
+/****t* Types/string_fn
+* INFO
+*  string_fn - string representing valid file name and/or path for example "C:\AnyPicture.png"
+****/
+
+/****t* Types/3Dvector
+* INFO
+*  3Dvector - 3D space vector ex. <2.4, 3.5, 4.7>
+****/
+
+/****t* Types/4Dvector
+* INFO
+*  4Dvector - 4D vector, usually colour specified as "rgbf" or "rgbt" format ex. <.4, .5, .7,.2>
+****/
+
+/****t* Types/5Dvector
+* INFO
+*  5Dvector - 5D vector, full color definition specified as "rgbft" format ex. <.4, .5, .7, 1.0, 0.0>
+****/
+
+/****t* Types/color_vector
+* INFO
+*  color_vector - identifier declared as fully qualified color vector
+* SEE ALSO
+*  5Dvector
+****/
+
+/****t* Types/finishdef
+* INFO
+*  finishdef - identifier declared as finish part of texture definition - finish{}
+****/
+
+/****t* Types/texturedef
+* INFO
+*  texturedef - identifier declared as fully qualified texture definition texture{}
+****/
+
+/****t* Types/colormapdef
+* INFO
+*  colormapdef - identifier declared as fully qualified color_map{}
+****/
+
+/****t* Types/interiordef
+* INFO
+*  interiordef - identifier declared as fully qualified interior definition
+****/
+
+/****t* Types/materialdef
+* INFO
+*  materialdef - identifier declared as fully qualified material definition
+****/
+
+/****t* Types/Function
+* INFO
+*  Function - function produced by some macros ex.: in Potential.inc module
+* SEE ALSO
+*  CreateVFC, CreateVFC2, CreateVLJ, CreateVLJ2
+****/
+
+
+/****t* Types/pfunction
+* INFO
+*  pfunction - function "pointer"
+****/

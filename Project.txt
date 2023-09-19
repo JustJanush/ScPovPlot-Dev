@@ -1,0 +1,39 @@
+/****J* ScPovPlot3D/Info
+* PURPOSE
+*   Macros for visualization of 3D data by raytracing method
+*   |html <A HREF="https://sourceforge.net/projects/scpovplot3d" target="_new">Download page (new tab)</A>
+*   This file contains additional remarks valid for all other files.
+*   Status of documentation is
+*   |html <b>preliminary</b>
+* INSTALLATION
+*  Some imporatant remarks on this straightforward installation
+* AUTHOR
+*   Project is maintained by:
+*    Janusz Opi³a Ph.D.
+*    mailto:janusz.opila@gmail.com or mailto:jmo@agh.edu.pl
+*    Dept. of Applied Informatics
+*    AGH University of Science & Technology, Cracow, Poland
+* COPYRIGHT
+*  GNU GPL v.3 License
+*  (c) 2007-now by Janusz Opi³a Ph.D.
+* INFO
+*  definition of types of variables used in source code:
+*  o boolean  - logic values[yes|no] or [true|false]
+*  o char     - Single character string. Ex. "A", ",", " ", 'c'
+*  o uinteger - unsigned integer number
+*  o integer  - signed integer number
+*  o float    - float number
+*  o enum     - enumerated constant
+*  o string       - any series of alphanumeric characters, eg. "This is the string"
+*  o string_fn    - string representing valid file name and/or path for example "C:\AnyPicture.png"
+*  o 3Dvector     - 3D space vector ex. <2.4, 3.5, 4.7>
+*  o color_vector - identifier declared as fully qualified color vector
+*  o texturedef   - identifier declared as fully qualified texture definition texture{}
+*  o colormapdef  - identifier declared as fully qualified color_map{}
+*  o interiordef  - identifier declared as fully qualified interior definition
+*  o materialdef  - identifier declared as fully qualified material definition
+*  o pfunction    - function "pointer"
+****
+  end of RoboDoc comment
+*/
+
